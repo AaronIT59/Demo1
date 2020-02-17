@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="login-box">
-            <a href="#"><i class="fa fa-pencil-square"></i></a>
+            <a href="signUp.jsp"><i class="fa fa-pencil-square"></i></a>
             <h2>Login to your account</h2>
             <form action="login">
                 <!--<i style="font-size:24px" class="fa">&#xf007;</i>-->
