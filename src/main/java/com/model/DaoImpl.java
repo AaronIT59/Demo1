@@ -13,7 +13,7 @@ public class DaoImpl implements Dao{
 	    String PASSWORD = "root";
 	    
 	    try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			
 			Connection conn = DriverManager.getConnection(DB_URL, USER_NAME, PASSWORD);
 			PreparedStatement pst = conn.prepareStatement("select * from User where user=? and pass=?");

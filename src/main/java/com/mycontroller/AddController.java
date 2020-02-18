@@ -12,7 +12,7 @@ import com.model.DaoImpl;
 @Controller
 public class AddController {
 	
-	@RequestMapping("/login")
+	@RequestMapping(value = "/login")
 	public ModelAndView home(HttpServletRequest request , HttpServletResponse response)
 	{
 		ModelAndView mv = new ModelAndView();
